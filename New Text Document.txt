@@ -1,0 +1,3 @@
+Project Console: https://console.firebase.google.com/project/bootstrap-basic/overview
+
+Hosting URL: https://bootstrap-basic.web.app

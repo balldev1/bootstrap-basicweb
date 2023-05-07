@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- create menu -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"> Tamsang 🍜👨‍🍳</a>
+            <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div id="navbar1" class="collapse navbar-collapse ">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallary" class="nav-link">Popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-bs-toggle="modal" data-bs-target="#myModal" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <!-- create slider -->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1" ></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2" ></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Tamsang Restaurant</h1>
+                            <p>Opening time: 10:00 am- 8:00 pm.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Tamsang Restaurant</h1>
+                            <p>Opening time: 10:00 am- 8:00 pm.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Tamsang Restaurant</h1>
+                            <p>Opening time: 10:00 am- 8:00 pm.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target='#mySlider' data-bs-slide='prev'>
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target='#mySlider' data-bs-slide='next'>
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section id="service" class="pt-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa-solid fa-person-biking fa-2x"></i>
+                    <h3>Delivery</h3>
+                    <p>delivery in 45 minutes</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa-solid fa-utensils fa-2x"></i>
+                    <h3>Dine-in</h3>
+                    <p>eat at the restaurant</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa-solid fa-house fa-2x"></i>
+                    <h3>Pickup</h3>
+                    <p>order takeaway</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- gallary -->
+    <section id="gallary" class="pt-2 py-1">
+        <div class="container">
+            <h1 class ='text-center pb-3 '>Popular Food</h1>
+            <!-- image -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2018/09/14/11/12/food-3676796__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/09/05/06/42/chicken-7433438__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2019/07/17/08/21/chicken-4343402__340.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2016/12/06/15/26/cookies-1886760__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2016/12/17/20/52/cake-1914463__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/27/22/38/cake-1284548__340.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2017/05/15/17/43/water-2315559__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2019/07/12/14/43/coffee-4333016__340.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527__340.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="mt-5">
+        <div class="dark-overlay" class="p-5">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                        <h1>About</h1>
+                        <p>999 Smith Street Fitzroy VIC 9999 AUSTRALIA Contact +99-999-999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; balldev1@hotmail.com 👩‍💻  </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal fade " id="myModal">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-dark align-items-center">
+                <div class="modal-header">
+                        <h5 class="modal-title ">🧛‍♀️Contact🧛‍♀️</h5>
+                        <!--button x close <button class="btn-close" data-bs-dismiss="modal"></button> -->
+                    </div>
+                    <div class="modal-body ">
+                       <form>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Enter your email" class="form-control text-black">
+                            </div>
+                            <div class="form-group">
+                                <label>Section Contact</label>
+                                <input type="text" placeholder=" what you want to contact" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Details</label>
+                                <textarea id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                       </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success" >Send</button>
+                        <button class="btn btn-secondary bg-danger" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

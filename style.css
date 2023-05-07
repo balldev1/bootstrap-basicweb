@@ -1,0 +1,53 @@
+*{
+    font-family: 'Castoro Titling', cursive;
+}
+
+.carousel-item{
+    height:500px;
+}
+
+.carousel-image-1{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/20/02/dark-2595779__340.jpg);
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url(https://cdn.pixabay.com/photo/2014/10/22/17/50/bar-498420__340.jpg);
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/10/04/49/restaurant-2618315__340.jpg);
+    background-size: cover;
+}
+
+#about{
+    min-height:150px;
+    position:relative;
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/27/12/18/forest-6578551__340.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    color:#fff;
+    background-attachment: fixed;
+}
+
+
+
+body{
+    background-color: black;
+    color: white;
+}
+.dark-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+}
+
+.nav-link{
+    color: #fff;
+}
+
